@@ -1,0 +1,10 @@
+<div class="card">
+    <img class="card-img-top" src="{{image_url}}">
+        <div class="card-block" style="padding:5px">
+            <h5 class="card-title">{{title}}</h5>
+            <p class="card-text"> {{comment}}</p>
+        </div>
+        <div class="card-footer">
+      <small class="text-muted"><b>By: {{username}}</b> <span style="float: right">{{create_date}}</span></small>
+    </div>
+</div>
